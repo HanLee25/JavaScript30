@@ -9,9 +9,9 @@
 
     <div class="clock">
       <div class="clock-face">
-        <div class="hand hour-hand"></div>
-        <div class="hand min-hand"></div>
-        <div class="hand second-hand"></div>
+        <div class="hand hand--hr"></div>
+        <div class="hand hand--min"></div>
+        <div class="hand hand--sec"></div>
       </div>
     </div>
 
@@ -47,28 +47,63 @@
         inset 0 0 0 3px #EFEFEF,
         inset 0 0 10px black,
         0 0 10px rgba(0,0,0,0.2);
+      background-color: #f0f0f0;
     }
 
     .clock-face {
-      position: relative;
-      width: 100%;
+      display: grid;
+      grid-template-areas: "clock-face";
       height: 100%;
-      transform: translateY(-3px); /* account for the height of the clock hands */
+      justify-items: center;
     }
 
     .hand {
-      width: 50%;
-      height: 6px;
-      background: black;
-      position: absolute;
-      top: 50%;
+      background-color: black;
+      grid-area: clock-face;
+      height: 50%;
+      transform-origin: 50% 100%;
+      transition: all 0.05s;
+	    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    }
+
+    .hand--hr {
+      box-shadow: inset 0 50px 0 #f0f0f0;
+      width: 14px;
+    }
+
+    .hand--min {
+      width: 6px;
+    }
+
+    .hand--sec {
+      background-color: red;
+      width: 2px;
     }
 
   </style>
 
   <script>
+    const secHand = document.querySelector('.hand--sec');
+    const minHand = document.querySelector('.hand--min');
+    const hrHand = document.querySelector('.hand--hr');
 
+    function getTime() {
+      const now = new Date();
 
+      const seconds = now.getSeconds();
+      const minutes = now.getMinutes();
+      const hours = now.getHours();
+
+      const secDegrees = (seconds / 60) * 360;
+      const minDegrees = (minutes / 60) * 360;
+      const hrDegrees = (hours / 12) * 360;
+
+      secHand.style.transform = `rotate(${secDegrees}deg)`;
+      minHand.style.transform = `rotate(${minDegrees}deg)`;
+      hrHand.style.transform = `rotate(${hrDegrees}deg)`;
+    }
+
+    setInterval(getTime, 1000);
   </script>
 </body>
 </html>
