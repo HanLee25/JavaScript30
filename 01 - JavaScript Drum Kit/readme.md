@@ -1,8 +1,7 @@
 # Day 1 - JS Drum Kit
 
-Created: Apr 13, 2020 10:36 AM
-Reference: https://github.com/nitishdayal/JavaScript30/tree/master/exercises/01%20-%20JavaScript%20Drum%20Kit
-Source: https://courses.wesbos.com/account/access/5e8f3e249edbdf363811ca25/view/194130650
+Source: JavaScript30 by Wes Bos - [JS Drum Kit]
+[JS Drum Kit] https://courses.wesbos.com/account/access/5e8f3e249edbdf363811ca25/view/194130650
 
 # Goal Overview
 
