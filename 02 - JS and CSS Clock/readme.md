@@ -1,6 +1,7 @@
 # Day 2 - CSS + JS Clock
 
 Source: JavaScript30 by Wes Bos - [CSS + JS Clock]
+
 [CSS + JS Clock]: https://courses.wesbos.com/account/access/5e8f3e249edbdf363811ca25/view/194130581
 
 # Goal Overview

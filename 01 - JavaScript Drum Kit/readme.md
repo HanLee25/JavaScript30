@@ -1,7 +1,8 @@
 # Day 1 - JS Drum Kit
 
 Source: JavaScript30 by Wes Bos - [JS Drum Kit]
-[JS Drum Kit] https://courses.wesbos.com/account/access/5e8f3e249edbdf363811ca25/view/194130650
+
+[JS Drum Kit]: https://courses.wesbos.com/account/access/5e8f3e249edbdf363811ca25/view/194130650
 
 # Goal Overview
 
