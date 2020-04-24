@@ -11,7 +11,8 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 Feel free to submit a PR adding a link to your own recaps, guides or reviews!
 
 * [01 - JavaScript Drum Kit](https://github.com/HanLee25/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
-* [02 - JS and CSS Clock](https://github.com/HanLee25/JavaScript30/tree/master/02%20-%20JS%20and%20CSS%20Clock).
+* [02 - JS and CSS Clock](https://github.com/HanLee25/JavaScript30/tree/master/02%20-%20JS%20and%20CSS%20Clock)
+* [03 - CSS Variables](https://github.com/HanLee25/JavaScript30/tree/master/03%20-%20CSS%20Variables)
 
 ## Alternative Implementations
 Here are some links of people who have done the tutorials, but in a different language or framework:

@@ -1,8 +1,6 @@
 # Day 3 - Playing with CSS variables and JS
 
-Created: Apr 17, 2020 9:40 AM
-Reference: https://github.com/nitishdayal/JavaScript30/tree/master/exercises/03%20-%20CSS%20Variables
-Source: https://courses.wesbos.com/account/access/5e8f3e249edbdf363811ca25/view/194130480
+Source: JavaScript30 by Wes Bos [CSS Variables](https://courses.wesbos.com/account/access/5e8f3e249edbdf363811ca25/view/194130480)
 
 # Goal Overview
 
